@@ -1,0 +1,11 @@
+{
+  "route": "send",
+  "host": "{{secrets/host}}",
+  "port": 2574,
+  "mailto": "{{secrets/email}}",
+  "mailfrom": "{{secrets/email}}",
+  "defaults": {
+    "message": "No message",
+    "subject": "Default Subject"
+  }
+}

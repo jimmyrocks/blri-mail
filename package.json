@@ -1,0 +1,23 @@
+{
+  "name": "blri-mail",
+  "version": "0.0.1",
+  "description": "Allows email to go to a server",
+  "author": "RISD  <ngp_support@nps.gov>",
+  "license": "unknown",
+  "contributors": [{
+    "name": "RISD",
+    "email": "ngp_support@nps.gov"
+  }],
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nationalparkservice/blri-mail"
+  },
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "nodemailer": "2.6.4"
+  }
+}
