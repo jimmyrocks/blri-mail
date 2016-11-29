@@ -7,6 +7,9 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
 var app = express();
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({
+  extended: false
+}));
 var router = express.Router();
 app.use('/', router);
 router.post('/' + settings.route, sendEmail);
